@@ -4,3 +4,4 @@
 
 vim.api.nvim_set_keymap("n", "<Space>ll", ":Lazy<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<Space>lx", ":LazyExtras<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<Space>lh", ":LazyHealth<CR>", { noremap = true, silent = true })
